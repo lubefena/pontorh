@@ -8,7 +8,9 @@
 <h:body>
 	<h1>PontoRH</h1>
 	<h:form>
-		<h:outputLink value="publico/lancamento.jsf">Entrar</h:outputLink>
+		<h:commandLink action="#{usuarioBean.novo}">Novo usuário</h:commandLink>
+		<br/>
+		<h:outputLink value="restrito/lancamento.jsf">Entrar</h:outputLink>
 	</h:form>
 </h:body>
 </html>

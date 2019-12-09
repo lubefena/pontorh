@@ -17,6 +17,7 @@
 </h:head>
 <h:body>
 	<div id="container">
+		
 		<div id="titulo">
 			<ui:insert name="titulo">PontoRH</ui:insert>
 		</div>
@@ -26,13 +27,16 @@
 			</ui:insert>
 		</div>
 		<div id="corpo">
-			<ui:insert name="corpo" />
+			<ui:insert name="corpo">
+				<ui:include src="/publico/lancamento.xhtml" />
+			</ui:insert>
 		</div>
 		<div id="rodape">
 			<ui:insert name="rodape">
 				<ui:include src="/publico/rodape.xhtml" />
 			</ui:insert>
 		</div>
+		
 	</div>
 </h:body>
 </html>

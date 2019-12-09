@@ -8,7 +8,7 @@
 		      maxIdle="30" 
 		      maxWait="10000" 
 		      username="root" 
-		      password=""
+		      password="lf88265693"
 		      driverClassName="com.mysql.jdbc.Driver"
 		      url="jdbc:mysql://localhost:3306/pontorh?autoReconnect=true" />
 	<!-- "maxActive" Número máximo de conexões em uso -->

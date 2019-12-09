@@ -22,5 +22,6 @@
 		<property name="use_sql_comments">true</property>
 		
 		<mapping class="br.com.pontorh.registro.Registro" /> <!-- Comunicação da existencia da classe Registro ao Hibernate -->
+		<mapping class="br.com.pontorh.usuario.Usuario" /> <!-- Comunicação da existencia da classe Registro ao Hibernate -->
 	</session-factory>
 </hibernate-configuration>
